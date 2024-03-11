@@ -109,11 +109,9 @@ class _HomePageState extends State<HomePage> {
           Constants.sizedBox(height: 15.0),
           FadeInDown(
             duration: const Duration(milliseconds: 1600),
-            child: Expanded(
-              child: Text(
-                AppText.subtitle,
-                style: AppTextStyles.normalStyle(),
-              ),
+            child: Text(
+              AppText.subtitle,
+              style: AppTextStyles.normalStyle(),textAlign: TextAlign.start,
             ),
           ),
         //   Constants.sizedBox(height: 22.0),
